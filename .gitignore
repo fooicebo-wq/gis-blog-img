@@ -1,0 +1,39 @@
+# ⚠ 這是**公開**倉庫（GitHub Pages 要公開才能當圖床）。
+# 推上去的東西全世界看得到，而且 git 歷史刪不乾淨。
+# 這裡只放「要放進部落格文章、本來就會公開」的圖片，其他一律擋掉。
+
+# ── 絕對不能進來的 ──
+*.json
+*.env
+.env*
+*token*
+*secret*
+*credential*
+*client_secret*
+*.pem
+*.key
+*.p12
+*.pfx
+Code.gs
+*.gs
+gas/
+config*.yml
+config*.yaml
+*.sqlite
+*.db
+
+# ── 原始檔／工作檔，不是要對外的成品 ──
+*.psd
+*.ai
+*.dwg
+*.skp
+*.xlsx
+*.docx
+*.pdf
+*.md
+!README.md
+
+# ── 系統雜物 ──
+Thumbs.db
+desktop.ini
+.DS_Store
